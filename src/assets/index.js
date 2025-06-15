@@ -25,6 +25,12 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import itech from "./company/itech.png";
+import dsa from "./company/dsa.png";
+import gdsc from "./company/gdsc.png";
+import ieee from "./company/ieee.png";
+import qss from "./company/qss.png";
+import shane from "./company/shane.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -56,6 +62,12 @@ export {
   shopify,
   starbucks,
   tesla,
+  itech,
+  dsa,
+  gdsc,
+  ieee,
+  qss,
+  shane,
   carrent,
   jobit,
   tripguide,

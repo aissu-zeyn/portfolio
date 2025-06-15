@@ -23,6 +23,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  itech,
+  shane,
+  ieee,
+  gdsc,
+  dsa,
+  qss,
 } from "../assets";
 
 export const navLinks = [
@@ -118,7 +124,7 @@ const experiences = [
   {
     title: "Machine Learning & AI Intern",
     company_name: "iTech Group",
-    icon: meta,
+    icon: itech,
     iconBg: "#E6DEDD",
     date: "May 2025 - Present",
     points: [
@@ -131,7 +137,7 @@ const experiences = [
   {
     title: "Tutor",
     company_name: "Shane Academy",
-    icon: shopify,
+    icon: shane,
     iconBg: "#383E56",
     date: "May 2024 - Present",
     points: [
@@ -146,8 +152,8 @@ const experiences = [
   {
     title: "Raspberry Pi Team Member",
     company_name: "IEEE McMaster Student Branch",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: ieee,
+    iconBg: "#FFFFFF",
     date: "Sep 2024 - Apr 2025",
     points: [
       "",
@@ -164,8 +170,8 @@ const experiences = [
   {
     title: "Open Sources Team Member - ML Track",
     company_name: "Google Developer Student Club",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: gdsc,
+    iconBg: "#FFFFFF",
     date: "Sep 2023 - May 2024",
     points: [
       "",
@@ -178,8 +184,8 @@ const experiences = [
   {
     title: "Machine Learning Intern",
     company_name: "Data Science Academy",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: dsa,
+    iconBg: "#FFFFFF",
     date: "May 2023 - Aug 2023",
     points: [
       "Applied advanced machine learning algorithms and statistical methods to tackle real-world challenges, leveraging PyTorch, TensorFlow, and Seaborn to develop, optimize, and visualize predictive models with high accuracy.",
@@ -191,8 +197,8 @@ const experiences = [
   {
     title: "Data Science Intern",
     company_name: "QSS Analytics",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: qss,
+    iconBg: "#000000",
     date: "Feb 2023 - May 2023",
     points: [
       "Led the analysis and visualization of large datasets using SPSS, Python, SQL, Power BI and Tableau, driving actionable insights for customers and optimizing decision-making processes.",
@@ -205,7 +211,7 @@ const experiences = [
   {
     title: "IT Support Specialist",
     company_name: "Shane Academy",
-    icon: starbucks,
+    icon: shane,
     iconBg: "#383E56",
     date: "Jan 2022 - Dec 2022",
     points: [
