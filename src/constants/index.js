@@ -23,12 +23,17 @@ import {
   jobit,
   tripguide,
   threejs,
-  itech,
   shane,
   ieee,
   gdsc,
   dsa,
   qss,
+  ibm,
+  kpmg,
+  staysame,
+  automl,
+  farminglife,
+  picker,
 } from "../assets";
 
 export const navLinks = [
@@ -122,51 +127,54 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Machine Learning & AI Intern",
-    company_name: "iTech Group",
-    icon: itech,
-    iconBg: "#E6DEDD",
-    date: "May 2025 - Present",
+    title: "AI Builder Intern",
+    company_name: "KPMG",
+    icon: kpmg,
+    iconBg: "#FFFFFF",
+    date: "Jan 2027 - Apr 2027",
+    points: [],
+  },
+  {
+    title: "Operations Lead",
+    company_name: "Google Developer Group",
+    icon: gdsc,
+    iconBg: "#FFFFFF",
+    date: "May 2026 - Present",
     points: [
-      "Led development of neural network classification model using PyTorch and Scikit-learn to predict system anomalies, resulting in 10% improvement in threat detection accuracy and reducing false positives by 15%",
-      "Optimized deep learning algorithms for image recognition tasks, improving model accuracy by 8% and reducing training time by 20% through implementation of transfer learning with TensorFlow and Keras.",
+      "Organize and run the Mac-a-thon hackathon end to end, coordinating logistics, schedule, venue, participants, and volunteers.",
+      "Lead sponsorship outreach, pitching partners and securing funding and prizes to support club events.",
+      "Communicate with vendors and partners to arrange food, swag, and event supplies within budget.",
+      "Coordinate the operations team and delegate tasks to keep events and workshops running smoothly.",
     ],
   },
-
-
+  {
+    title: "AI Engineering Intern",
+    company_name: "IBM",
+    icon: ibm,
+    iconBg: "#FFFFFF",
+    date: "Sep 2025 - Aug 2026",
+    points: [
+      "Eliminated 7 hours/month of manual report compilation for IBM leadership across 8 project teams by designing a Python-based intelligent automation \"uber board\" that consolidates 10+ boards into one, leveraging watsonx.ai, Gemini, Llama, and IBM Bob to aggregate Monday.com and Slack data into leadership-ready reports.",
+      "Accelerated the seller reference approval process by 35% by architecting an NLP-driven evaluation platform in Python and React, combining automated content generation, an LLM-as-judge scoring pipeline, action-item extraction, and workflow orchestration via the Monday.com and Slack APIs.",
+      "Prepared over 100 product managers and sellers for client-facing AI product demos by developing technical lab guides, workshop materials, and live demonstrations across multiple IBM AI offerings.",
+    ],
+  },
   {
     title: "Tutor",
     company_name: "Shane Academy",
     icon: shane,
     iconBg: "#383E56",
-    date: "May 2024 - Present",
-    points: [
-      "",
-      "",
-    ],
+    date: "May 2024 - Aug 2025",
+    points: [],
   },
-
-
-
-  
   {
     title: "Raspberry Pi Team Member",
     company_name: "IEEE McMaster Student Branch",
     icon: ieee,
     iconBg: "#FFFFFF",
     date: "Sep 2024 - Apr 2025",
-    points: [
-      "",
-      "",
-    ],
+    points: [],
   },
-
-
-
-
-
-
-
   {
     title: "Open Sources Team Member - ML Track",
     company_name: "Google Developer Student Club",
@@ -174,40 +182,21 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "Sep 2023 - May 2024",
     points: [
-      "",
-      "",
+      "Contributed to the development of an AutoML system for custom classification tasks, automating model training and selection to make machine learning accessible to non-experts, using Google Cloud Platform and Python.",
     ],
   },
-
-
-
   {
     title: "Machine Learning Intern",
-    company_name: "Data Science Academy",
-    icon: dsa,
-    iconBg: "#FFFFFF",
-    date: "May 2023 - Aug 2023",
-    points: [
-      "Applied advanced machine learning algorithms and statistical methods to tackle real-world challenges, leveraging PyTorch, TensorFlow, and Seaborn to develop, optimize, and visualize predictive models with high accuracy.",
-      "Analyzed diverse datasets using Python, R, and SPSS, extracting key insights and building statistical models.",
-    ],
-  },
-
-
-  {
-    title: "Data Science Intern",
-    company_name: "QSS Analytics",
+    company_name: "QSS Analytics & Data Science Academy",
     icon: qss,
     iconBg: "#000000",
-    date: "Feb 2023 - May 2023",
+    date: "Feb 2023 - Aug 2023",
     points: [
-      "Led the analysis and visualization of large datasets using SPSS, Python, SQL, Power BI and Tableau, driving actionable insights for customers and optimizing decision-making processes.",
-      "Produced over 10 detailed visualizations and reports using Pandas, NumPy, Scikit-learn, and TensorFlow, significantly enhancing team productivity by 15%.",
+      "Improved time-to-insight across analytics deliverables by 15% for 3 adopting teams by applying predictive analytics and statistical modeling to large datasets in Python, R, SQL, SPSS, Power BI, and Tableau.",
+      "Built and optimized supervised learning models for bank credit approval and fraud detection using PyTorch, TensorFlow, and Scikit-learn, improving predictive performance over the team's baseline approach.",
+      "Delivered 10+ predictive dashboards and analytical reports adopted by 3 teams, using Pandas, NumPy, Seaborn, and TensorFlow.",
     ],
   },
-
-
-
   {
     title: "IT Support Specialist",
     company_name: "Shane Academy",
@@ -219,83 +208,13 @@ const experiences = [
       "Spearheaded cross-functional collaboration, optimizing IT workflows and increasing operational efficiency by 15%.",
     ],
   },
-
-];
-
-const testimonials = [
-  {
-    testimonial:
-      " ",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      " ",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      " ",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
 ];
 
 const projects = [
   {
-    name: "CarRent",
+    name: "Stay Same",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "AI travel itinerary planner built at a hackathon, with AI-generated itineraries, image-to-destination matching, and a solo traveler connector.",
     tags: [
       {
         name: "nextjs",
@@ -306,13 +225,80 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "claude-api",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "elevenlabs",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: staysame,
+    source_code_link: "https://github.com/aissu-zeyn",
+  },
+  {
+    name: "AutoML",
+    description:
+      "AutoML system for custom classification tasks that automates model training and selection, making machine learning accessible to non-experts through an intuitive interface. Built with Google Developer Student Club.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "gcp",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ml",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: automl,
+    source_code_link: "https://github.com/aissu-zeyn",
+  },
+  {
+    name: "Farming Life",
+    description:
+      "Interactive game for Parkinson's detection using ELM, designed for elderly users, with engaging sub-games that assess cognitive and motor skills and clear instructions for accessibility.",
+    tags: [
+      {
+        name: "elm",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "game",
+        color: "green-text-gradient",
+      },
+      {
+        name: "accessibility",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: farminglife,
+    source_code_link: "https://github.com/aissu-zeyn",
+  },
+  {
+    name: "Picker App",
+    description:
+      "Web app for making random decisions: list picking, wheel spinning, dice rolling, coin flipping, and number generation.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: picker,
+    source_code_link: "https://github.com/aissu-zeyn",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

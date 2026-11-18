@@ -31,12 +31,25 @@ import gdsc from "./company/gdsc.png";
 import ieee from "./company/ieee.png";
 import qss from "./company/qss.png";
 import shane from "./company/shane.png";
+import ibm from "./company/ibm.png";
+import kpmg from "./company/KPMG.jpg";
+
+import staysame from "./projects/staysame.svg";
+import automl from "./projects/automl.svg";
+import farminglife from "./projects/farminglife.svg";
+import picker from "./projects/picker.svg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  ibm,
+  kpmg,
+  staysame,
+  automl,
+  farminglife,
+  picker,
   logo,
   backend,
   creator,
